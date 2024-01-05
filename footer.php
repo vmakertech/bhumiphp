@@ -1,4 +1,61 @@
-
+<style>
+    .fix-icon {
+    display: inline-block;
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    z-index: 999999;
+}
+#fix-icon {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.fix-icon-item {
+    animation: bounce 1s infinite alternate;
+    animation-duration: 1s;
+    -webkit-animation: bounce 1s infinite alternate;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+}
+.fix-icon-item img {
+    width: 55px !important;
+    height: 55px !important;
+    background:
+    #ff7400;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.fix-icon-whataap {
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    z-index: 999999;
+    transition: all0.5s ease-in-out;
+}
+.fix-icon-whataap-item img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px
+rgba(60, 60, 60, .4);
+transition: box-shadow .2s;
+cursor: pointer;
+overflow: hidden;
+width: 55px !important;
+height: 55px !important;
+background:
+    #25d366 !important;
+}
+</style>
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
         <div class="container py-5">
